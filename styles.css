@@ -1,0 +1,24 @@
+.square{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: Helvetica;
+}
+h1{
+    color: orange;
+}
+h2{
+    color: red;
+}
+#message{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 25%;
+    font-size: 24pt;
+    color: black;
+}
+table,tr,td{
+    margin-left: 25%;
+}
+
