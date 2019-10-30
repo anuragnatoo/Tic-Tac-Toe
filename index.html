@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<title>Tic Tac Toe</title>
+<body onload="startGame();">
+    <h1>Welcome to My Tic Tac Toe game</h1>
+    <h2>Play and Enjoy</h2>
+    <div id="message">Messages go here</div>
+    <table border="2">
+        <tr >
+            <td id="s1" class="square" onclick="nextMove(this);"></td>
+            <td id="s2" class="square" onclick="nextMove(this);"></td>
+            <td id="s3"  class="square" onclick="nextMove(this);"></td>
+        </tr>
+        <tr >
+            <td id="s4"  class="square" onclick="nextMove(this);"></td>
+            <td id="s5"  class="square" onclick="nextMove(this);"></td>
+            <td id="s6"  class="square" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td id="s7"  class="square" onclick="nextMove(this);"></td>
+            <td id="s8"  class="square" onclick="nextMove(this);"></td>
+            <td id="s9"  class="square" onclick="nextMove(this);"></td>
+        </tr>
+    </table>
+    <a href="javascript:startGame();">CLICK HERE TO PLAY AGAIN</a>
+</body>
+</html>
